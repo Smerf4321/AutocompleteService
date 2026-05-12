@@ -1,6 +1,6 @@
 @AutocompleteService_HostAddress = http://localhost:5273
 
-GET {{AutocompleteService_HostAddress}}/weatherforecast/
+GET {{AutocompleteService_HostAddress}}/autocompleteCityName/{scrap}
 Accept: application/json
 
 ###
